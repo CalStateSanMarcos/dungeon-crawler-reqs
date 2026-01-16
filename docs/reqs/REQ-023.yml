@@ -1,0 +1,20 @@
+active: true
+derived: false
+header: |
+  Gameplay Loop (REPL)
+level: 1.2.16
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Ensures the application remains responsive and creates a clear separation
+  between user intent and game logic execution.
+ref: ''
+reviewed: _JmRcL4ooTUcfLOLwRxgqHaV5zJq4zs9UqbNlSzItsg=
+text: |
+  The game SHALL implement a main Game Loop pattern that continuously cycles
+  through three distinct phases:
+  1. Input Processing (reading user commands)
+  2. Game State Update (resolving logic)
+  3. Rendering (outputting text descriptions)
+  This SHOULD be similar to an interpreter's REPL.

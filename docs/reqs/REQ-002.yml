@@ -1,0 +1,15 @@
+active: true
+derived: false
+header: |
+  User Functional Requirements
+level: 1.1.0
+links:
+- REQ-001: null
+normative: true
+rational: |
+  Fundamental movement mechanic required for a dungeon crawler.
+ref: ''
+references: []
+reviewed: 5VJ2FcSpocLC6qed4PB6sxJTDTII8vBCw9pKflgQgzc=
+text: |
+  Gameplay Mechanics and Functional Requirements

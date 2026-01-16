@@ -1,0 +1,21 @@
+active: true
+derived: false
+header: |
+  Abstract Factory
+level: 1.2.5
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Enforces a family of related product objects (Theme components) without
+  specifying their concrete classes in the main game logic.
+ref: ''
+reviewed: AGnwAmUd-wMcRjLfa29zfo91Is7XjYXRNT_f49-aTJM=
+text: |
+  The creation of all dungeon entities (Enemies, Items, Traps) MUST be handled
+  via an **Abstract Factory Pattern**.
+  - The system shall support at least two distinct dungeon themes (e.g., 'Cave'
+    and 'Castle').
+  - The Factory must ensure that enemies and items generated match the current
+    dungeon theme (e.g., a 'Cave' factory produces 'Bats' and 'Rocks', while a
+    'Castle' factory produces 'Knights' and 'Swords').

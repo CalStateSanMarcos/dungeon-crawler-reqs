@@ -1,0 +1,21 @@
+active: true
+derived: false
+header: |
+  Singleton
+level: 1.2.8
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Prevents conflicting game states (e.g., two concurrent game loops) and
+  provides a centralized access point for global resources without passing
+  references through every method.
+ref: ''
+reviewed: wEkfNqLSqq1xV8gQ6U5intyisi9c725oFk1fd6nWZvc=
+text: |
+  The core game engine (managing the global game loop and global configuration)
+  shall be implemented using the **Singleton Pattern**.
+  - There must be exactly one instance of the `GameEngine` class accessible
+    globally.
+  - This instance must coordinate the initialization of the window, the loading
+    of assets, and the high-level application lifecycle.

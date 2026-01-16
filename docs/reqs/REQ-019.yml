@@ -1,0 +1,23 @@
+active: true
+derived: false
+header: |
+  Achievement System
+level: 1.1.4
+links: []
+normative: true
+rationale: |
+  Serves as a concrete implementation of the Observer Pattern (see REQ-012) and
+  enhances player retention by providing long-term meta-goals.  **Note:** This
+  feature is OPTIONAL and should only be implemented if the core architecture
+  is stable.
+ref: ''
+reviewed: cApyOO_O6nxdTyzla2tnSOIwvnM8DMRk1gAJYsgcxpE=
+text: |
+  The system MAY include an `AchievementSystem` component to track cumulative
+  player statistics (e.g., "Total Steps Taken", "Enemies Defeated", "Rare Items
+  Found") across strictly local game sessions.
+  - This system acts as a passive Observer, listening for game events without
+    altering gameplay logic.
+  - When a pre-defined threshold is met (e.g., "Defeat 10 Skeletons"), the
+    system SHALL generate a specific "Achievement Unlocked" notification to be
+    displayed in the UI.

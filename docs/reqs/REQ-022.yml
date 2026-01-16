@@ -1,0 +1,16 @@
+active: true
+derived: false
+header: |
+  Controller Objects
+level: 1.2.15
+links:
+- REQ-007: null
+normative: true
+rationale: |
+  To demonstrate mastery of separation of concerns and to allow for future
+  replacement of the text view with a graphical view without rewriting game
+  logic.
+ref: ''
+reviewed: cNs9KtT-DJ7r-bB6oXKwzr5XR4QwZ4B_S4Slq9VBsOo=
+text: |
+  The **Controller** handles user input parsing and commands the Model.

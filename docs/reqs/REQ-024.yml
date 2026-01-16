@@ -1,0 +1,15 @@
+active: true
+derived: false
+header: ''
+level: 1.1.5
+links:
+- REQ-002: null
+normative: true
+rationale: |
+  Fundamental movement mechanic required for a dungeon crawler.
+ref: ''
+reviewed: KAUCY9pwxEkh5Ek29m2E-HVBcK6wE-v3xFK2XsQPmgU=
+text: |
+  The system SHOULD allow the player to navigate the world using cardinal
+  direction commands, e.g., "go north", "move south", "travel east", and "exit
+  west".

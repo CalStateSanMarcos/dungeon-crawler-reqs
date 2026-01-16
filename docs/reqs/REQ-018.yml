@@ -1,0 +1,22 @@
+active: true
+derived: false
+header: |
+  State Pattern
+level: 1.2.12
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Ensures that the context of user actions is strictly enforced and localizes
+  state-specific logic, preventing massive conditional switch statements in the
+  input handling code.
+ref: ''
+reviewed: M3gPaTMx7s4g4fZrYyHmGwZhEo9w3whIq2Jw8Y3DKYg=
+text: |
+  The Player's interaction capabilities SHALL be managed using the **State
+  Pattern**.
+  - The Player object must delegate behavior to a state object (e.g.,
+    `ExplorationState`, `CombatState`, `InventoryState`).
+  - Input commands must be interpreted differently depending on the current
+    state (e.g., the command "Run" works in `CombatState` but might be invalid
+    or interpreted differently in `InventoryState`).

@@ -1,0 +1,24 @@
+active: true
+derived: false
+header: |
+  Builder Pattern
+level: 1.2.11
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Separates the construction of a complex object from its representation, which
+  is essential when the object creation requires many steps (walls, then doors,
+  then monsters, then loot).
+ref: ''
+reviewed: VvoMMTqi3pZTRWFF-NqVLsCfjw1bPQGah-fe84J7SMA=
+text: |
+  The dungeon level generation shall be implemented using the **Builder
+  Pattern**.
+  - A `DungeonBuilder` class will step-by-step construct complex room layouts,
+    placing traps, connecting corridors, and populating loot.
+  - The construction process (building the maze) must be separated from the
+    representation, allowing the same construction process to create different
+    representations (e.g., a "TestDungeon" vs a "ProductionDungeon").
+  - The **Builder Pattern* SHALL be used in conjunction with the layout
+    deserialization system for loading initial dungeon configurations.

@@ -1,0 +1,14 @@
+active: true
+derived: false
+header: |
+  System Architecture (System Requirements)
+level: 1.2.0
+links:
+- REQ-001: null
+normative: true
+rationale: |
+  Ensures learning about numerous different design patterns.
+ref: ''
+reviewed: 1PQ6aMV8DYw4pblvPZAXztKAyle73RP_nJc9FdVLGmM=
+text: |
+  The game SHALL implement at least 10 design patterns.

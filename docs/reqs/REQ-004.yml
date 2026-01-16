@@ -1,0 +1,18 @@
+active: true
+derived: false
+header: |
+  Combat System
+level: 1.1.2
+links:
+- REQ-002: null
+normative: true
+rationale: |
+  Core gameplay loop requirement.  Turn-based logic simplifies the initial
+  implementation of state management.
+ref: ''
+reviewed: j4oIBCw-8xjYpL8HbnBATfqtmiHUSgJKC9b-IR6-KJs=
+text: |
+  The system MAY initiate a turn-based combat mode when a player encounters a
+  hostile entity.  The player and the entity shall exchange actions (Attack,
+  Defend, Flee) until the player's hit points reach zero or the player
+  successfully flees.

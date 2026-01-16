@@ -1,0 +1,22 @@
+active: true
+derived: false
+header: |
+  Decorator
+level: 1.2.9
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Allows for the dynamic addition of behaviors/stats to objects without
+  creating an explosion of subclasses (avoiding instances such as
+  "BlessedRustySword", "FireRustySword", etc.).
+ref: ''
+reviewed: YlDPUxfjPa5b0Ot17KTqZc0DNNNZchKK_TWnPWHoXZs=
+text: |
+  The system shall implement the **Decorator Pattern** to manage item
+  enhancements and status effects on equipment.
+  - A base `Weapon` object (e.g., "Sword") must be dynamically wrapped with
+    decorators (e.g., "FireEnchanted", "Rusty", "Blessed") at runtime.
+  - The `getDamage()` and `getDescription()` methods must recursively call the
+    wrapped object to calculate total stats and generate the full item name
+    (e.g., "Blessed Rusty Sword of Fire").

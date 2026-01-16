@@ -1,0 +1,20 @@
+active: true
+derived: false
+header: |
+  Player User eXperience
+level: 1.1.1
+links:
+- REQ-002: null
+normative: true
+rationale: |
+  Provides necessary context to the player since there is no graphical
+  interface.
+ref: ''
+reviewed: 5bvtSG8e_U89Q940ZZNBoWRzR2QR6yHCmf2Vuhr-C44=
+text: |
+  Upon entering a room, the system SHALL display a textual description of the
+  environment, including visible exits, items visibly lying on the floor, and
+  any entities present.
+  - The system MAY display hieroglyphics (emoticons) or other visual
+    information to guide the player through the space of your world.
+  - The system MAY display a minimap for the player's benefit.

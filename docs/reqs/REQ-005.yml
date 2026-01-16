@@ -1,0 +1,16 @@
+active: true
+derived: false
+header: |
+  Inventory Management
+level: 1.1.3
+links:
+- REQ-002: null
+normative: true
+rationale: |
+  Adds depth to the gameplay and allows for puzzle-solving elements (keys,
+  potions).
+ref: ''
+reviewed: XnhWz1HwNz6bLvF93Mv8AXc6Vb63_1tz4kTXtSjWz64=
+text: |
+  The system SHALL maintain an Inventory state allowing players to 'pick up',
+  'drop', and 'use' items found in the dungeon.

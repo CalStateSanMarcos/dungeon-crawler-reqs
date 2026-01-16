@@ -1,0 +1,20 @@
+active: true
+derived: false
+header: |
+  Observer/Observable Pattern
+level: 1.2.6
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Promotes loose coupling between the core game logic and the various systems
+  that need to react to state changes (UI, Logging, Audio triggers).
+ref: ''
+reviewed: 5YlW6vU7JPn_nCG2nSLBVSIyon-88K2NZdjKI6bG9YY=
+text: |
+  The system SHALL utilize the **Observer Pattern** to manage communication
+  between the Game State (Subject) and the Text Output/Logging system
+  (Observers).
+  - The 'GameLog' and 'AchievementSystem' MUST subscribe to player events.
+  - When the player takes damage or picks up an item, all subscribers MUST
+    automatically receive the update notification.

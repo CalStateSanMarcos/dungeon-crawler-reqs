@@ -1,0 +1,16 @@
+active: true
+derived: false
+header: |
+  Player Data Persistence
+level: 1.2.3
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Requires the implementation of serialization/deserialization mechanisms for
+  complex object graphs.
+ref: ''
+reviewed: 9E2Itrhwu02RKubAaRtQDPblkKDO7AHne16V5ulVvy4=
+text: |
+  The system SHALL support persistence by allowing the player to save the
+  current game state to a file and load it upon restarting the application.

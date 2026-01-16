@@ -1,0 +1,17 @@
+active: true
+derived: false
+header: |
+  Loadable World Data
+level: 1.2.2
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Promotes the Data-Driven Design pattern, allowing game designers to modify
+  content without recompiling the engine.
+ref: ''
+reviewed: KhU0UdsS4rBgn27ztYodZ2VFn6mwQqLwP_Qc0Qx_zhE=
+text: |
+  Dungeon layout and item data SHALL be loaded from external JSON or YAML
+  configuration files at runtime, rather than being hardcoded in the source
+  code.

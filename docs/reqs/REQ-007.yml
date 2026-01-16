@@ -1,0 +1,16 @@
+active: true
+derived: false
+header: |
+  MVC
+level: 1.2.1
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  To demonstrate mastery of separation of concerns and to allow for future
+  replacement of the text view with a graphical view without rewriting game
+  logic.
+ref: ''
+reviewed: dMCkvzq-vCq8DmLBQC0lZ8lmbdm79SBAU9KrBw5rKHU=
+text: |
+  The software SHALL follow the Model-View-Controller (MVC) architectural pattern.

@@ -1,0 +1,16 @@
+active: true
+derived: false
+header: |
+  View Objects
+level: 1.2.14
+links:
+- REQ-007: null
+normative: true
+rationale: |
+  To demonstrate mastery of separation of concerns and to allow for future
+  replacement of the text view with a graphical view without rewriting game
+  logic.
+ref: ''
+reviewed: xdmLj3SqhxAonk2-ZsThtCa_IURDOzaKt-bs1kSiYn4=
+text: |
+  The **View** handles strictly text output and formatting.

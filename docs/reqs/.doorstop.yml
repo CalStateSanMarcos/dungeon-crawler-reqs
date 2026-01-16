@@ -1,0 +1,10 @@
+settings:
+  digits: 3
+  itemformat: yaml
+  prefix: REQ
+  sep: '-'
+attributes:
+  publish:
+    - rationale
+extensions:
+  item_sha_required: true

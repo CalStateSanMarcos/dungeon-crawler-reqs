@@ -1,0 +1,19 @@
+active: true
+derived: false
+header: |
+  Strategy (Policy) Pattern
+level: 1.2.7
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Eliminates complex conditional statements (if/else chains) in the Enemy class
+  and allows for easy addition of new AI behaviors without modifying existing
+  code.
+ref: ''
+reviewed: fNeRliWvOd_aIK17yMBRk2q9fr3AqEmeM7erw9OGVgU=
+text: |
+  Enemy combat behavior shall be implemented using the **Strategy Pattern**.
+  - Enemies must be capable of switching behaviors at runtime (e.g., switching
+    from an 'AggressiveStrategy' to a 'FleeingStrategy' when their health drops
+    below 20%).

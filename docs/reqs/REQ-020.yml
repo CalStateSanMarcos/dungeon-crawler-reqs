@@ -1,0 +1,16 @@
+active: true
+derived: false
+header: |
+  Model Data
+level: 1.2.13
+links:
+- REQ-007: null
+normative: true
+rationale: |
+  To demonstrate mastery of separation of concerns and to allow for future
+  replacement of the text view with a graphical view without rewriting game
+  logic.
+ref: ''
+reviewed: RE_3QBh9vtx11Da87nOwJMKdlFkFtNVx2CF2dnZ1p94=
+text: |
+  The **Model** handles game state (rooms, player stats).

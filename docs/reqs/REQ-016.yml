@@ -1,0 +1,21 @@
+active: true
+derived: false
+header: |
+  Chain of Responsibility
+level: 1.2.10
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Decouples the sender of the request (the main loop) from the receivers,
+  allowing new command types (e.g., "Magic", "Trading") to be added simply by
+  inserting a new link in the chain.
+ref: ''
+reviewed: GAF1BfgpjOqAcVUlCJ9nf_xPeyjI_W2-vFTMyXR5U6E=
+text: |
+  User input commands shall be processed using the **Chain of Responsibility
+  Pattern**.
+  - A chain of specific handlers (e.g., `MovementHandler` -> `CombatHandler` ->
+    `InventoryHandler` -> `SystemHandler`) must be established.
+  - When the user types a command, it is passed down the chain until a handler
+    recognizes the syntax and processes it.

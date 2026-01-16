@@ -1,0 +1,20 @@
+active: true
+derived: false
+header: |
+  Command Pattern
+level: 1.2.4
+links:
+- REQ-006: null
+normative: true
+rationale: |
+  Decouples the object that invokes the operation (InputHandler) from the one
+  that knows how to perform it (GameModel).  It also trivializes the
+  implementation of 'Undo' functionality.
+ref: ''
+reviewed: E-4Gmr_P1ssrxKilcOs9sQ9K0zXb-gWxsuI7aXmvhxU=
+text: |
+  The system SHALL implement the **Command Pattern** to handle all player
+  inputs (e.g., 'Move', 'Attack', 'Take Item').
+  - Each action must be encapsulated as an object.
+  - The system must maintain a history stack of executed commands to support an
+    'Undo' feature for the last 3 turns.
