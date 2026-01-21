@@ -1,0 +1,33 @@
+---
+name: Publish GitHub Pages
+
+on:
+  push:
+    branches:
+      - trunk
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Sourcebase
+        uses: actions/checkout@v6
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - name: Install Doorstop
+        run: pip install doorstop
+      - name: Build Requirements
+        run: make
+      - name: Save Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_public/artifacts
+      - name: Publish generated content to GitHub Pages
+        uses: actions/deploy-pages@v4
