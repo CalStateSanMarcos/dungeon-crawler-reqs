@@ -6,5 +6,7 @@ settings:
 attributes:
   publish:
     - rationale
+  defaults:
+    title: "Software Patterns through Dungeon Crawler/Text Adventure"
 extensions:
   item_sha_required: true
